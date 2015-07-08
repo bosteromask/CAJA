@@ -1,0 +1,23 @@
+body{
+	background: #00ffcc;
+}
+
+h2 {
+	color: violet;
+
+}
+.bonito{
+	color: yellow;
+}
+
+#precioso {
+	font-size: 60px;
+}
+.navbar{
+	background: orange;
+	font-size: 30px;
+
+}
+.navbar-brand{
+	color: violet;
+}
