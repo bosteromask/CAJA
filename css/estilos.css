@@ -1,6 +1,7 @@
 
 *{
 	margin: 0;
+	text-decoration: none;
 }
 
 nav {
@@ -19,12 +20,6 @@ nav {
 	float: right;
 }
 
-#contend {
-	width: 100%;
-	height: 600px;
-	background-color: yellow;
-}
-
 ul {
 	list-style-type: none;
 	margin-top: 30px;
@@ -33,8 +28,49 @@ ul {
 li {
 	display: inline;
 	font-family: helvetica;
-	color: black;
-	background-color:red;
+	color: grey;
 	margin-right: 30px;
 }
+
+#contend {
+	width: 100%;
+	height: 600px;
+	background-color: yellow;
+	background: url(http://publicdomainarchive.com/wp-content/uploads/2015/03/public-domain-images-free-stock-photos-bicycle-bike-black-and-white.jpeg)center center no-repeat;
+}
+
+.titulo {
+	font-family: helvetica;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 250px;
+	position: relative;
+}
+.titulo2 {
+	font-family: helvetica;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 5px;
+	position: relative;
+}
+
+.botoncontend {
+	font-family: helvetica;
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+	background-color: #5ad9c1;
+	color: white;
+	height: 30px;
+	width: 100px;
+	margin-left: auto;
+  	margin-top: 10px;
+  	margin-right: auto;
+  	line-height: 50px;
+
+}
+
+
+
+
 
