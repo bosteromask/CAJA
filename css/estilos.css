@@ -66,8 +66,12 @@ li {
 	margin-left: auto;
   	margin-top: 10px;
   	margin-right: auto;
-  	line-height: 50px;
+  	padding-top: 15px;
 
+}
+
+.botoncontend:hover {
+	background-color: #57e0c7;
 }
 
 
