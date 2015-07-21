@@ -44,37 +44,46 @@ li {
 	font-size: 50px;
 	text-align: center;
 	padding-top: 250px;
-	position: relative;
+
 }
 .titulo2 {
 	font-family: helvetica;
 	font-size: 15px;
 	text-align: center;
-	padding-top: 5px;
-	position: relative;
+	padding: 5px;
+	margin: 30px auto;
+
 }
 
 .botoncontend {
 	font-family: helvetica;
-	font-size: 15px;
-	text-align: center;
-	position: relative;
-	background-color: #5ad9c1;
-	color: white;
-	height: 30px;
+	font-size: 18px;
+	background-color: #fff;
 	width: 100px;
-	margin-left: auto;
-  	margin-top: 10px;
-  	margin-right: auto;
-  	padding-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 10px;
 
 }
 
 .botoncontend:hover {
 	background-color: #57e0c7;
+
 }
 
+.cleta {
+	margin: 500px auto;
+	width: 1400px;
+	z-index: 1;
+	position: relative;
+}
 
+#sobre {
+	z-index: 4;
+	margin: -600px auto;
+	width: 100%;
+}
 
 
 
