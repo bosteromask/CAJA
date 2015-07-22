@@ -67,8 +67,9 @@ li {
 
 }
 
+}
 .botoncontend:hover {
-	background-color: #57e0c7;
+	background-color: ##39D1B4;
 
 }
 
@@ -76,13 +77,13 @@ li {
 	margin: 500px auto;
 	width: 1400px;
 	height: 886px;
-	z-index: 1;
+	z-index: 2;
 	position: relative;
 	background: url(http://2009.feltracing.com/09/images/catalog/xl/8927.png);
 }
 
 #sobre {
-	z-index: 2;
+	z-index: 3;
 	margin: -600px auto;
 	width: 100%;
 }
@@ -91,7 +92,7 @@ li {
 	width: 500px;
 	font-family: helvetica;
 	font-size: 400px;
-	z-index: 3;
+	z-index: 4;
 	position:relative;
 	margin: -800px auto;
 }
