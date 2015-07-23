@@ -37,6 +37,7 @@ li {
 	height: 600px;
 	background-color: yellow;
 	background: url(http://publicdomainarchive.com/wp-content/uploads/2015/03/public-domain-images-free-stock-photos-bicycle-bike-black-and-white.jpeg)center center no-repeat;
+	z-index: 1
 }
 
 .titulo {
@@ -54,25 +55,26 @@ li {
 	margin: 30px auto;
 
 }
-
-.botoncontend {
-	font-family: helvetica;
-	font-size: 18px;
-	background-color: #fff;
+.botoncontent {
+	background-color: red;
 	width: 100px;
+	margin: 30px auto;
 	text-align: center;
-	text-decoration: none;
-	margin: 0 auto;
+	font-family: helvetica;
+	font-size: 15px;
 	padding: 10px;
-
+	color: white;
+}
+.botoncontent:hover {
+	background-color: blue;
 }
 
-}
-.botoncontend:hover {
-	background-color: ##39D1B4;
+#sobre{
+	width: 1000px;
+	margin: -600px auto;
+	z-index: 3;
 
 }
-
 .cleta {
 	margin: 500px auto;
 	width: 1400px;
@@ -82,11 +84,6 @@ li {
 	background: url(http://2009.feltracing.com/09/images/catalog/xl/8927.png);
 }
 
-#sobre {
-	z-index: 3;
-	margin: -600px auto;
-	width: 100%;
-}
 
 .d {
 	width: 500px;
