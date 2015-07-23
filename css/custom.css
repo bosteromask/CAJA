@@ -9,51 +9,70 @@ body{
 
 nav {
 	width: 100%;
-	height: 80px;
+	height: 70px;
 	background: white;
 }
 
+#menu {
+	float: right;
+	font-family: helvetica;
+	font-size: 1em;
+
+}
+#logo {
+	float: left;
+	margin: 0.5em;
+}
+
 #main {
-	width: 100%;
-	height: 900px;
+	max-width: 100%;
+	height: 1140px;
 	text-align: center;
-	background: url(http://publicdomainarchive.com/wp-content/uploads/2015/03/public-domain-images-free-stock-photos-bicycle-bike-black-and-white.jpeg)center center no-repeat;
+	background: url(http://www.robinoneillphotography.com/media/original/_MG_8767-Edit-DUP.jpg)center center no-repeat;
 }
 
 #main h1 {
-	font-size: 7em;
+	font-size: 11em;
 	font-family: helvetica;
-	color: black;
 	margin-bottom: 0.2em;
-	padding-top: 1em;
+	padding-top: 2em;
+	color: #EE2E24;
 }
 
 #main h2 {
 	font-family: helvetica;
 	color: black;
-	font-size: 2em;
-	margin-bottom: 1em;
+	font-size: 3em;
+	margin-bottom: 4em;
+	color: white;
 
 }
 
 .btn-main {
-	background-color: red;
+	background-color: white;
+	border-radius: 0.1em;
 	font-size: 0.8em;
 	font-family: helvetica;
-	padding: 10px;
+	padding: 1.5em 2.5em 1.5em 2.5em;
 	position: relative;
-	z-index: 1;
+	z-index: 2;
+	color: #EE2E24;
 
 }
 
 .btn-main:hover {
-	background-color: blue;
+	background-color: #EE2E24;
 	color: white;
 }
 
-#cleta div {
-	width: 80%;
-	margin: 30px auto;
-	text-align: center;
-	margin-top: -580px;
+#cleta {
+	width: 100%;
+	height: 1334px;
+	margin: -350px auto 0px auto;
+	z-index: 1;
+	background-image: url(../img/bike.png);
+	background-size: cover;
+	position: relative;
+
+
 }
